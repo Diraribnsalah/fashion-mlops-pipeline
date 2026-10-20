@@ -1,0 +1,26 @@
+# Git & GitHub
+.git/
+.gitignore
+.github/
+
+# Python & Virtual Environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# Data & Heavy Raw Weights (ONNX is used for inference)
+data/
+fashion_cnn.pth
+*.pth
+
+# UI & Temporary Cache
+.gradio/
+.DS_Store
+
+# Documentation & Visual Artifacts
+README.md
+confusion_matrix.png
