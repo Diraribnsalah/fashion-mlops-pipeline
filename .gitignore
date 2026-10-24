@@ -1,7 +1,21 @@
- data/
-.gradio/
-__pycache__/
-*.pyc
+# Python & Virtual Env
 .venv/
+__pycache__/
+*.py[cod]
+
+# Data & Models 
+data/
+*.onnx
+*.pkl
+*.pth
+
+# MLflow
+mlruns/
+mlruns.db
+
+# Databases & Environment
 .env
-.DS_Store
+*.db
+
+# Testing & Coverage
+.pytest_cache/
