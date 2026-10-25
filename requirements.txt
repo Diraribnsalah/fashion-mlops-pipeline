@@ -1,29 +1,25 @@
-# Data & ML
-pandas>=2.0.0
-numpy>=1.24.0
-scikit-learn>=1.3.0
-xgboost>=2.0.0
-lightgbm>=4.0.0
+# Deep Learning & Computer Vision
+torch>=2.0.0
+torchvision>=0.15.0
 
-# ONNX Conversion & Runtime
+# Data & Image Processing
+numpy>=1.24.0
+pillow>=10.0.0
+
+# ONNX Optimization & Runtime
 onnx>=1.14.0
 onnxruntime>=1.16.0
-skl2onnx>=1.15.0
-onnxmltools>=1.11.0
 
-# Experiment Tracking & Registry
-mlflow>=2.8.0
-
-# API & Database
+# Backend API & Serving
 fastapi>=0.104.0
 uvicorn>=0.24.0
 pydantic>=2.4.0
-sqlalchemy>=2.0.0
-psycopg2-binary>=2.9.9
+python-multipart>=0.0.6
 
-# Monitoring & Observability
-evidently>=0.4.0
+# Web User Interface
+gradio>=4.0.0
 
-# Testing & Quality
+# Testing & Utilities
 pytest>=7.4.0
 httpx>=0.25.0
+requests>=2.31.0

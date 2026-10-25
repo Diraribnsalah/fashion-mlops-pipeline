@@ -1,21 +1,30 @@
-# Python & Virtual Env
-.venv/
+ 
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
 
-# Data & Models 
-data/
-*.onnx
-*.pkl
-*.pth
-
-# MLflow
-mlruns/
-mlruns.db
-
-# Databases & Environment
-.env
-*.db
-
-# Testing & Coverage
+ 
+env/
+venv/
+.venv/
+ENV/
 .pytest_cache/
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.gradio/
+.coverage
+htmlcov/
+
+data/ 
+models/*.pt
+models/*.h5
+models/*.pkl
+
+ 
+
+.DS_Store
+.vscode/
+.idea/
+*.log
+.env

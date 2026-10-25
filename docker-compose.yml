@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+   
+  backend:
+    build: .
+    ports:
+      - "8000:8000"
+
+   
+  frontend:
+    build: .
+    command: python src/app.py
+    ports:
+      - "7860:7860"
+    depends_on:
+      - backend
+ 
