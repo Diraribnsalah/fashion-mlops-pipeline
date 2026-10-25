@@ -16,7 +16,9 @@ ENV/
 .coverage
 htmlcov/
 
-data/ 
+data/FashionMINIST 
+data/images
+data/fashion_full_dataset.csv
 models/*.pt
 models/*.h5
 models/*.pkl
